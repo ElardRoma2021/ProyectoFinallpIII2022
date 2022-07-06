@@ -1,0 +1,137 @@
+23-Mar-2022 11:10:10.620 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/9.0.55
+23-Mar-2022 11:10:10.623 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Nov 10 2021 08:26:45 UTC
+23-Mar-2022 11:10:10.623 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     9.0.55.0
+23-Mar-2022 11:10:10.623 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Windows 10
+23-Mar-2022 11:10:10.624 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.0
+23-Mar-2022 11:10:10.624 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+23-Mar-2022 11:10:10.624 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         C:\Program Files\Java\jdk-16.0.1
+23-Mar-2022 11:10:10.624 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       16.0.1+9-24
+23-Mar-2022 11:10:10.624 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+23-Mar-2022 11:10:10.624 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     C:\apache-tomcat-9.0.55
+23-Mar-2022 11:10:10.624 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     C:\apache-tomcat-9.0.55
+23-Mar-2022 11:10:10.637 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+23-Mar-2022 11:10:10.638 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+23-Mar-2022 11:10:10.638 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+23-Mar-2022 11:10:10.638 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+23-Mar-2022 11:10:10.638 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+23-Mar-2022 11:10:10.638 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=C:\apache-tomcat-9.0.55\conf\logging.properties
+23-Mar-2022 11:10:10.638 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+23-Mar-2022 11:10:10.638 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djdk.tls.ephemeralDHKeySize=2048
+23-Mar-2022 11:10:10.638 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+23-Mar-2022 11:10:10.638 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dignore.endorsed.dirs=
+23-Mar-2022 11:10:10.638 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=C:\apache-tomcat-9.0.55
+23-Mar-2022 11:10:10.638 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=C:\apache-tomcat-9.0.55
+23-Mar-2022 11:10:10.639 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=C:\apache-tomcat-9.0.55\temp
+23-Mar-2022 11:10:10.667 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat [1.2.31] con la versión APR [1.7.0].
+23-Mar-2022 11:10:10.667 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Capacidades APR: IPv6 [true], enviar fichero [true], aceptar filtros [false], aleatorio [true], UDS [true].
+23-Mar-2022 11:10:10.672 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+23-Mar-2022 11:10:10.693 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente [OpenSSL 1.1.1l  24 Aug 2021]
+23-Mar-2022 11:10:11.050 INFO [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+23-Mar-2022 11:10:11.088 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [698] milliseconds
+23-Mar-2022 11:10:11.154 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+23-Mar-2022 11:10:11.155 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.55]
+23-Mar-2022 11:10:11.168 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\apache-tomcat-9.0.55\conf\Catalina\localhost\CRUDAPACHE.xml]
+23-Mar-2022 11:10:11.183 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/CRUDAPACHE] in deployment descriptor [C:\apache-tomcat-9.0.55\conf\Catalina\localhost\CRUDAPACHE.xml] has been ignored
+23-Mar-2022 11:10:12.141 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+23-Mar-2022 11:10:12.237 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\apache-tomcat-9.0.55\conf\Catalina\localhost\CRUDAPACHE.xml] has finished in [1.067] ms
+23-Mar-2022 11:10:12.237 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\apache-tomcat-9.0.55\conf\Catalina\localhost\PRACTICA1.xml]
+23-Mar-2022 11:10:12.238 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/PRACTICA1] in deployment descriptor [C:\apache-tomcat-9.0.55\conf\Catalina\localhost\PRACTICA1.xml] has been ignored
+23-Mar-2022 11:10:12.277 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\apache-tomcat-9.0.55\conf\Catalina\localhost\PRACTICA1.xml] has finished in [40] ms
+23-Mar-2022 11:10:12.278 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\apache-tomcat-9.0.55\conf\Catalina\localhost\PrjEjemploPrueba.xml]
+23-Mar-2022 11:10:12.279 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/PrjEjemploPrueba] in deployment descriptor [C:\apache-tomcat-9.0.55\conf\Catalina\localhost\PrjEjemploPrueba.xml] has been ignored
+23-Mar-2022 11:10:12.318 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\apache-tomcat-9.0.55\conf\Catalina\localhost\PrjEjemploPrueba.xml] has finished in [39] ms
+23-Mar-2022 11:10:12.319 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\apache-tomcat-9.0.55\conf\Catalina\localhost\Prueba.xml]
+23-Mar-2022 11:10:12.319 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Prueba] in deployment descriptor [C:\apache-tomcat-9.0.55\conf\Catalina\localhost\Prueba.xml] has been ignored
+23-Mar-2022 11:10:12.360 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\apache-tomcat-9.0.55\conf\Catalina\localhost\Prueba.xml] has finished in [42] ms
+23-Mar-2022 11:10:12.361 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\apache-tomcat-9.0.55\webapps\docs] de la aplicación web
+23-Mar-2022 11:10:12.395 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\apache-tomcat-9.0.55\webapps\docs] has finished in [34] ms
+23-Mar-2022 11:10:12.395 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\apache-tomcat-9.0.55\webapps\examples] de la aplicación web
+23-Mar-2022 11:10:13.068 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\apache-tomcat-9.0.55\webapps\examples] has finished in [673] ms
+23-Mar-2022 11:10:13.069 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\apache-tomcat-9.0.55\webapps\host-manager] de la aplicación web
+23-Mar-2022 11:10:13.126 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\apache-tomcat-9.0.55\webapps\host-manager] has finished in [58] ms
+23-Mar-2022 11:10:13.127 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\apache-tomcat-9.0.55\webapps\manager] de la aplicación web
+23-Mar-2022 11:10:13.201 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\apache-tomcat-9.0.55\webapps\manager] has finished in [74] ms
+23-Mar-2022 11:10:13.201 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\apache-tomcat-9.0.55\webapps\ROOT] de la aplicación web
+23-Mar-2022 11:10:13.245 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\apache-tomcat-9.0.55\webapps\ROOT] has finished in [43] ms
+23-Mar-2022 11:10:13.251 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+23-Mar-2022 11:10:13.367 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2279] milliseconds
+23-Mar-2022 11:10:28.386 INFO [http-nio-8080-exec-9] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\apache-tomcat-9.0.55\conf\Catalina\localhost\Prac01.xml]
+23-Mar-2022 11:10:28.387 WARNING [http-nio-8080-exec-9] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Prac01] in deployment descriptor [C:\apache-tomcat-9.0.55\conf\Catalina\localhost\Prac01.xml] has been ignored
+23-Mar-2022 11:10:28.433 INFO [http-nio-8080-exec-9] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\apache-tomcat-9.0.55\conf\Catalina\localhost\Prac01.xml] has finished in [48] ms
+23-Mar-2022 11:10:28.437 INFO [http-nio-8080-exec-10] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Prac01]] after start() had already been called. The second call will be ignored.
+23-Mar-2022 13:58:36.792 INFO [main] org.apache.catalina.core.StandardServer.await Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+23-Mar-2022 13:58:36.794 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+23-Mar-2022 13:58:36.810 INFO [main] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+23-Mar-2022 13:58:36.878 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+23-Mar-2022 13:58:36.892 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+23-Mar-2022 14:19:48.436 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/9.0.55
+23-Mar-2022 14:19:48.445 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Nov 10 2021 08:26:45 UTC
+23-Mar-2022 14:19:48.445 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     9.0.55.0
+23-Mar-2022 14:19:48.445 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Windows 10
+23-Mar-2022 14:19:48.447 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      10.0
+23-Mar-2022 14:19:48.447 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+23-Mar-2022 14:19:48.447 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         C:\Program Files\Java\jdk-16.0.1
+23-Mar-2022 14:19:48.448 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       16.0.1+9-24
+23-Mar-2022 14:19:48.448 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+23-Mar-2022 14:19:48.448 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     C:\apache-tomcat-9.0.55
+23-Mar-2022 14:19:48.448 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     C:\apache-tomcat-9.0.55
+23-Mar-2022 14:19:48.479 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.lang=ALL-UNNAMED
+23-Mar-2022 14:19:48.479 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.io=ALL-UNNAMED
+23-Mar-2022 14:19:48.479 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util=ALL-UNNAMED
+23-Mar-2022 14:19:48.480 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+23-Mar-2022 14:19:48.480 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+23-Mar-2022 14:19:48.481 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=C:\apache-tomcat-9.0.55\conf\logging.properties
+23-Mar-2022 14:19:48.481 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+23-Mar-2022 14:19:48.482 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djdk.tls.ephemeralDHKeySize=2048
+23-Mar-2022 14:19:48.482 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+23-Mar-2022 14:19:48.483 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dignore.endorsed.dirs=
+23-Mar-2022 14:19:48.484 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=C:\apache-tomcat-9.0.55
+23-Mar-2022 14:19:48.484 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=C:\apache-tomcat-9.0.55
+23-Mar-2022 14:19:48.487 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=C:\apache-tomcat-9.0.55\temp
+23-Mar-2022 14:19:48.494 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Cargada la biblioteca nativa APR de Apache Tomcat [1.2.31] con la versión APR [1.7.0].
+23-Mar-2022 14:19:48.494 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Capacidades APR: IPv6 [true], enviar fichero [true], aceptar filtros [false], aleatorio [true], UDS [true].
+23-Mar-2022 14:19:48.500 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+23-Mar-2022 14:19:48.510 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL inicializado correctamente [OpenSSL 1.1.1l  24 Aug 2021]
+23-Mar-2022 14:19:48.964 INFO [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8080"]
+
+23-Mar-2022 14:19:49.002 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [981] milliseconds
+23-Mar-2022 14:19:49.066 INFO [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+23-Mar-2022 14:19:49.066 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.55]
+23-Mar-2022 14:19:49.087 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\apache-tomcat-9.0.55\conf\Catalina\localhost\CRUDAPACHE.xml]
+23-Mar-2022 14:19:49.113 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/CRUDAPACHE] in deployment descriptor [C:\apache-tomcat-9.0.55\conf\Catalina\localhost\CRUDAPACHE.xml] has been ignored
+23-Mar-2022 14:19:50.249 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+23-Mar-2022 14:19:50.351 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\apache-tomcat-9.0.55\conf\Catalina\localhost\CRUDAPACHE.xml] has finished in [1.260] ms
+23-Mar-2022 14:19:50.351 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\apache-tomcat-9.0.55\conf\Catalina\localhost\Prac01.xml]
+23-Mar-2022 14:19:50.352 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Prac01] in deployment descriptor [C:\apache-tomcat-9.0.55\conf\Catalina\localhost\Prac01.xml] has been ignored
+23-Mar-2022 14:19:50.422 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\apache-tomcat-9.0.55\conf\Catalina\localhost\Prac01.xml] has finished in [71] ms
+23-Mar-2022 14:19:50.423 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\apache-tomcat-9.0.55\conf\Catalina\localhost\PRACTICA1.xml]
+23-Mar-2022 14:19:50.424 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/PRACTICA1] in deployment descriptor [C:\apache-tomcat-9.0.55\conf\Catalina\localhost\PRACTICA1.xml] has been ignored
+23-Mar-2022 14:19:50.477 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\apache-tomcat-9.0.55\conf\Catalina\localhost\PRACTICA1.xml] has finished in [53] ms
+23-Mar-2022 14:19:50.477 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\apache-tomcat-9.0.55\conf\Catalina\localhost\PrjEjemploPrueba.xml]
+23-Mar-2022 14:19:50.478 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/PrjEjemploPrueba] in deployment descriptor [C:\apache-tomcat-9.0.55\conf\Catalina\localhost\PrjEjemploPrueba.xml] has been ignored
+23-Mar-2022 14:19:50.528 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\apache-tomcat-9.0.55\conf\Catalina\localhost\PrjEjemploPrueba.xml] has finished in [51] ms
+23-Mar-2022 14:19:50.529 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\apache-tomcat-9.0.55\conf\Catalina\localhost\Prueba.xml]
+23-Mar-2022 14:19:50.529 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Prueba] in deployment descriptor [C:\apache-tomcat-9.0.55\conf\Catalina\localhost\Prueba.xml] has been ignored
+23-Mar-2022 14:19:50.589 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\apache-tomcat-9.0.55\conf\Catalina\localhost\Prueba.xml] has finished in [61] ms
+23-Mar-2022 14:19:50.590 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\apache-tomcat-9.0.55\webapps\docs] de la aplicación web
+23-Mar-2022 14:19:50.640 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\apache-tomcat-9.0.55\webapps\docs] has finished in [49] ms
+23-Mar-2022 14:19:50.640 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\apache-tomcat-9.0.55\webapps\examples] de la aplicación web
+23-Mar-2022 14:19:51.261 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\apache-tomcat-9.0.55\webapps\examples] has finished in [621] ms
+23-Mar-2022 14:19:51.262 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\apache-tomcat-9.0.55\webapps\host-manager] de la aplicación web
+23-Mar-2022 14:19:51.332 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\apache-tomcat-9.0.55\webapps\host-manager] has finished in [71] ms
+23-Mar-2022 14:19:51.333 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\apache-tomcat-9.0.55\webapps\manager] de la aplicación web
+23-Mar-2022 14:19:51.434 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\apache-tomcat-9.0.55\webapps\manager] has finished in [102] ms
+23-Mar-2022 14:19:51.435 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [C:\apache-tomcat-9.0.55\webapps\ROOT] de la aplicación web
+23-Mar-2022 14:19:51.495 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\apache-tomcat-9.0.55\webapps\ROOT] has finished in [58] ms
+23-Mar-2022 14:19:51.503 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+23-Mar-2022 14:19:51.609 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2606] milliseconds
+23-Mar-2022 14:19:56.656 INFO [http-nio-8080-exec-10] org.apache.catalina.startup.HostConfig.deployDescriptor Desplieque del descriptor de configuración [C:\apache-tomcat-9.0.55\conf\Catalina\localhost\Prac02.xml]
+23-Mar-2022 14:19:56.657 WARNING [http-nio-8080-exec-10] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/Prac02] in deployment descriptor [C:\apache-tomcat-9.0.55\conf\Catalina\localhost\Prac02.xml] has been ignored
+23-Mar-2022 14:19:56.723 INFO [http-nio-8080-exec-10] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\apache-tomcat-9.0.55\conf\Catalina\localhost\Prac02.xml] has finished in [67] ms
+23-Mar-2022 14:19:56.729 INFO [http-nio-8080-exec-1] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/Prac02]] after start() had already been called. The second call will be ignored.
+23-Mar-2022 14:43:20.952 INFO [main] org.apache.catalina.core.StandardServer.await Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+23-Mar-2022 14:43:20.953 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+23-Mar-2022 14:43:20.965 INFO [main] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+23-Mar-2022 14:43:21.012 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+23-Mar-2022 14:43:21.025 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
